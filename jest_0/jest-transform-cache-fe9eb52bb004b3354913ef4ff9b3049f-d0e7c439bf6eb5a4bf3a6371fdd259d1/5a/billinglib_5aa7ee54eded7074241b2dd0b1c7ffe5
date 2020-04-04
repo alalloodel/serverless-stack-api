@@ -1,0 +1,13 @@
+c6790369296bc7510ede42862081cfe4
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.calculateCost = calculateCost;
+
+function calculateCost(storage) {
+  var rate = storage <= 10 ? 4 : storage <= 100 ? 2 : 1;
+  return rate * storage * 100;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJpbGxpbmctbGliLmpzIl0sIm5hbWVzIjpbImNhbGN1bGF0ZUNvc3QiLCJzdG9yYWdlIiwicmF0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLFNBQVNBLGFBQVQsQ0FBdUJDLE9BQXZCLEVBQWdDO0FBQ3JDLE1BQU1DLElBQUksR0FBR0QsT0FBTyxJQUFJLEVBQVgsR0FDVCxDQURTLEdBRVRBLE9BQU8sSUFBSSxHQUFYLEdBQ0UsQ0FERixHQUVFLENBSk47QUFNQSxTQUFPQyxJQUFJLEdBQUdELE9BQVAsR0FBaUIsR0FBeEI7QUFDRCIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBmdW5jdGlvbiBjYWxjdWxhdGVDb3N0KHN0b3JhZ2UpIHtcbiAgY29uc3QgcmF0ZSA9IHN0b3JhZ2UgPD0gMTBcbiAgICA/IDRcbiAgICA6IHN0b3JhZ2UgPD0gMTAwXG4gICAgICA/IDJcbiAgICAgIDogMTtcblxuICByZXR1cm4gcmF0ZSAqIHN0b3JhZ2UgKiAxMDA7XG59Il19
